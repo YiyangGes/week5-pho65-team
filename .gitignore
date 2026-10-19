@@ -1,6 +1,7 @@
 /evidence/step3-verification.md
 /evidence/step3-code-review.md
 /START-HERE.html
+/docker/app/test_crm_copilot.py
 
 # Generated Python files
 __pycache__/
