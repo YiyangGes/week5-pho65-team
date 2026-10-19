@@ -26,7 +26,7 @@ The prediction was first stated in chat before execution and transcribed into th
 
 Does the after-fix result match what you would now expect, given the corrected data? Explain any remaining gap.
 
-Yes. The post-fix CLI result matches the expected regular status, lapse interval, draft count, and unchanged capacity result. The consent audit still excludes 4 records. All 15 dependency-free CRM tests passed, including a test that reproduces the original split identity in memory and verifies that the code does not silently merge it.
+Yes. The result matches the expected regular status, lapse interval, draft count, and unchanged capacity result. The consent audit still excludes 4 records.
 
 The user subsequently supplied an after-fix browser screenshot confirming the same results at `/crm`. Screenshot review verifies the displayed normal case. The user's later [terminal screenshot](inventory-automated-test-passed.png) confirms the automated inventory suite passed.
 
@@ -42,7 +42,3 @@ DRAFT -- NOT SENT
 Hi Anh Nguyen, we haven't seen you at Pho65 for a while and would love to welcome you back whenever it suits you.
 Best wishes, the Pho65 team
 ```
-
-## Reproduction
-
-From `docker/app`, run `python -m unittest -v test_crm_copilot.CRMTests`. From the project root, run `python docker/app/crm_copilot.py sample-data/pho65-week5-seed.csv 2026-02-15`.
