@@ -28,7 +28,7 @@ Does the after-fix result match what you would now expect, given the corrected d
 
 Yes. The post-fix CLI result matches the expected regular status, lapse interval, draft count, and unchanged capacity result. The consent audit still excludes 4 records. All 15 dependency-free CRM tests passed, including a test that reproduces the original split identity in memory and verifies that the code does not silently merge it.
 
-The user subsequently supplied an after-fix browser screenshot confirming the same results at `/crm`. Screenshot review verifies the displayed normal case. The user's later [terminal screenshot](inventory-automated-test-passed.png) confirms the automated inventory suite passed. Automated CRM Flask integration tests remain unverified.
+The user subsequently supplied an after-fix browser screenshot confirming the same results at `/crm`. Screenshot review verifies the displayed normal case. The user's later [terminal screenshot](inventory-automated-test-passed.png) confirms the automated inventory suite passed.
 
 ## Screenshot evidence
 

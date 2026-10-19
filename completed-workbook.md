@@ -9,7 +9,7 @@ Type your team's actual answers directly into this file as you work through `wee
 | Section 0 (Regression) | Pass/fail + one-line result for each check | `evidence/regression-check.md` |
 | Section 1 (Schema) | Your definitions, matching rule, thresholds | (this file only) |
 | Section 2 (Plan review) | Plan summary + reject/accept decision | `ai-use-log.md` (full prompt/response) |
-| Section 3 (Build log) | Component-by-component decision table | `evidence/step3-code-review.md` |
+| Section 3 (Build log) | Component-by-component decision table | (this file only) |
 | Section 4 (Known-answer test) | Prediction/observed/diagnosis/fix summary | `evidence/known-answer-test.md` (full table) |
 | Section 5 (Innovation evidence) | Where each requirement lives, key numbers | `evidence/consent-and-capacity.md` |
 | Section 6 (Manager README draft) | Draft text | `README.md` (final) |
@@ -73,8 +73,6 @@ Reviewed before execution; user approved implementation and checks on October 17
 | Draft-message generation | Accepted as-is | Labeled drafts; no sending code. |
 | Narrative brief | Accepted as-is | One paragraph; historical counts and suggested action. |
 | Flask integration | Accepted as-is | Add `/crm` and navigation; preserve existing routes. |
-
-Detailed review: [Step 3 code review](evidence/step3-code-review.md). Verification: [Step 3 results](evidence/step3-verification.md). No proposed code was rejected outright; automatic sending and silent identity correction remain prohibited.
 
 ## Section 4: Known-Answer Test
 
