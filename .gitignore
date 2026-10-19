@@ -1,3 +1,11 @@
 /evidence/step3-verification.md
 /evidence/step3-code-review.md
 /START-HERE.html
+
+# Generated Python files
+__pycache__/
+*.py[cod]
+
+# Local inventory database and SQLite temporary files
+/docker/inventory-data/*
+!/docker/inventory-data/.gitkeep
